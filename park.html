@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: #AAAAAA;            
+        }
+        .page{
+            width: 800px;
+            margin: 0 auto;                        
+        }
+        #header{
+            margin: 0, auto;
+            background-color: #FFAA00;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            height: 180px;
+        }
+        nav{
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background-color: #CCCCCC;
+        }
+        #main{
+            overflow: hidden;
+            height: 1000px;
+        }
+        #section{
+            float: left;
+            margin: 0 auto;
+            width: 500px; 
+            height: 1000px;
+            background-color: #DDDDDD;          
+        }
+        #header h1{
+            font-size: 100px; 
+            margin: 0;
+            background-color: #FFAA00;          
+        }
+        #subhead{
+            font-size: 20px;
+            background-color: #FFAA00;
+        }
+        
+        #asideTitle{
+            background-color: #990000;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            width: 150px;
+            height: 40px;
+        }
+        #leftAside{
+            height: 1000px;
+            width: 150px;            
+            float: left;
+            background-color: white;
+        }
+        
+        #section article{
+            width: 480px;            
+        }
+        #contents{
+            color: #123456;
+            width: 480px;
+        }
+        #contents p{
+            width: 480px;
+            font-size: 13px;
+        }
+        #contents h3{
+            font-size: 15px;
+        }
+        #rightAside{
+            height: 1000px;
+            width: 150px;
+            float: right;
+            background-color: white;
+        }        
+        #leftAside p {
+            text-decoration: underline;
+        }
+        h2{
+            width: 480px;
+            height: 40px;
+            line-height: 40px;
+            color: white;
+            font-size: large;
+            background-color: #123456;
+        }
+        footer{
+            background-color: #123456;
+            color: white;
+            font-weight: bold;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        #rightTitle{
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        #yellow{
+            color: #FFAA00;
+        }
+        #grey{
+            color: #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header id="header">
+            <h1>Musée d'Orsay</h1>
+            <p id="subhead">Musée d'Orsay Musée d'Orsay Musée d'Orsay Musée d'Orsay Musée d'Orsay</p>
+        </header>
+        <nav>Royal Academy of Arts, THE REAL VANGOGH THE ARTIST AND HIS LETTERS</nav>
+        <div id="main">
+            <aside id="leftAside">
+                <div id="asideTitle">ARTIST</div>
+                <p>작가의 작품</p>
+                <p>작가의 시대</p>
+                <p>작가의 일생</p>
+            </aside>
+            <section id=section>
+                <article>
+                    <h2>피리부는 소년</h2>
+                    <div id="contents">
+                    <h3>에두아르마네</h3>
+                    <p>1866 캔버스에 유채, 161*97cm, 파리 오르세 Edouard MANET, Le Fifre, H.T, 161*97cm</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>고흐의 방</h2>
+                    <div id="contents">
+                        <h3>빈센트반고흐</h3>
+                        <p>1889 캔버스에 유채,57.5*74cm,파리 오르세 Vincent Van GOGH,La Chambre de Van Gogh, H/T, 57.5*74cm</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>황색 그리스도가 있는 화가의 자화상</h2>
+                    <div id="contents">
+                        <h3>폴 고갱</h3>
+                        <p>1890-1891 캔버스에 유채,38*46cm,파리 오르세 Paul Gauguin Portrait de I'artiste au Paul Gauguin, H/T, 38*46cm</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>오페라좌의 관현악단</h2>
+                    <div id="contents">
+                        <h3>에드가 드가</h3>
+                        <p>1868-1869 캔버스에 유채,32*46cm,파리 오르세 Edgar Degas, L'orchestre de I'Opera H/T, 38*46cm</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>만종</h2>
+                    <div id="contents">
+                        <h3>장 프랑수아 밀레</h3>
+                        <p>1857-1859 캔버스에 유채,55.5*66cm,파리 오르세 Jean-Franqois Millet, L'Angelus H/T, 55.5*66cm</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>제비꽃장식을 단 베르트모리조</h2>
+                    <div id="contents">
+                        <h3>에두아르마네</h3>
+                        <p>1872 Eduouard Manet Berthe Morisot au bouquet de H/T, 55*38cm</p>
+                    </div>
+                </article>
+            </section>
+            <aside id="rightAside">
+                <div id="rightTitle">
+                    <p id="grey">전세계인들에게</p>
+                    <p id="yellow">제일 사랑받는</p>
+                    <p>서양미술사의 시대</p>
+                </div>
+                <p>Workshop Go</p>
+                <p>Life drowing workshop</p>
+                <p>Summer exhibition</p>
+                <p>A-level Summer Exibition Online 2010</p>
+                <p>RA collection</p>
+                <p>RA Collections</p>
+            </aside>
+        </div>
+        <footer>&copy; 2012 Les Amis du Musée d'Orsay. All rights reserved. amis@amis-musee-orsay.org Legal status</footer>
+    <div id="page">
+</body>
+</html>
